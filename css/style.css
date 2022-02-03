@@ -12,10 +12,10 @@ body{
 
 
 header{
-    height: 10vh;
+    height: 8vh;
     background-color: black;
     text-align: right;
-    margin-top: rem;
+    padding: 1rem;
 }
 .btn{
     border-radius: 5px;
@@ -25,19 +25,30 @@ header{
 a {
     color: white;
     text-decoration: none;
-  }
+}
 
 .margin-right{
     margin-right: 0.5rem;
 }
 
 main{
-    height: 70vh;
+    height: 80vh;
     background-color: hotpink;
 
 }
-
 footer{
-    height: 20vh;
-    background-color: yellowgreen;
+    height: 12vh;
+    background-color: #4a4a4a;
+}
+.wall-screens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+
+    
 }
